@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Poems & Stories</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <h1 id="title2">Poems & Stories</h1>
+            <a href="../index.html">Home</a>
+            <a href="../pages/slimes.html">Stories</a>
+            
+          </div>
+          <div class="main2">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+        </div>         
+    </nav>
+    <main>
+        <section class="main">
+            <section>
+                    <figure>
+                        <img src="../Pics/background.png" alt="backgound" class="bgbox">
+                    </figure>
+                <article class="cards">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="../Pics/rock.png" alt="Avatar" class="card-img">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                      </div>
+                </article>
+            </section>
+        </section>
+        <footer class="credits">
+            <article class="credits1">
+                Jessica van der Zwaag - SD1D 
+            </article>
+        </footer>
+    </main>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+           
+</body>
+</html>
